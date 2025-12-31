@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+    background: rgba(99, 102, 241, 0.3);
+    color: white;
+}
+
+/* Animation delay utilities */
+.delay-1000 {
+    animation-delay: 1s;
+}
+
+.delay-2000 {
+    animation-delay: 2s;
+}

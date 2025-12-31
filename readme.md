@@ -49,7 +49,11 @@ Es ideal como punto de partida para proyectos académicos, prototipos o aplicaci
 - ✅ React 19 con Hooks modernos
 - ✅ Vite 7 para desarrollo ultra-rápido (HMR)
 - ✅ Tailwind CSS v4 con el nuevo plugin de Vite
-- ✅ Consumo de APIs con `fetch`
+- ✅ **React Router** para navegación multi-página (SPA)
+- ✅ Componentes reutilizables (Navbar, Footer)
+- ✅ Páginas: Home, Quiénes Somos
+- ✅ Diseño moderno con glassmorphism y gradientes
+- ✅ Animaciones y micro-interacciones
 - ✅ Diseño responsive y moderno
 
 ### DevOps
@@ -196,7 +200,13 @@ django-react-starter/
 │
 ├── frontend/                   # Cliente React
 │   ├── src/
-│   │   ├── App.jsx             # Componente principal
+│   │   ├── components/         # Componentes reutilizables
+│   │   │   ├── Navbar.jsx      # Barra de navegación
+│   │   │   └── Footer.jsx      # Pie de página
+│   │   ├── pages/              # Páginas de la aplicación
+│   │   │   ├── Home.jsx        # Página principal
+│   │   │   └── About.jsx       # Quiénes Somos
+│   │   ├── App.jsx             # Router y layout principal
 │   │   ├── index.css           # Estilos Tailwind
 │   │   └── main.jsx            # Entry point
 │   ├── vite.config.js          # Configuración de Vite
@@ -320,7 +330,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👨‍💻 Autor
 
-Desarrollado con ❤️ para la comunidad de desarrolladores.
+Desarrollado por Rubén con ❤️ un 31 de diciembre de 2025.
 
 ---
 
