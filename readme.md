@@ -52,4 +52,4 @@ npm start
 La aplicación React se abrirá en `http://localhost:3000/`.
 
 ---
-*Desarrollado con ❤️ por Rubén Schnettler*
+*Desarrollado por Rubén Schnettler.*
